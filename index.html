@@ -8,14 +8,20 @@
          #divContainer {
             text-align: center;
         }
+
+        .redText {
+            color: rgb(172, 49, 41);
+            background-color: rgb(147, 187, 53);
+        }
+
     </style>
 </head>
 <body>
     <body style="background-color:#19c230;">
         <div id="divContainer">
             <h1 style="color: white;">Login</h1>
-            <div><input type="text" placeholder="Email" required></input></div><br>
-            <div><input type="password" placeholder="Password" required></input></div><br>
+            <div><input type="text" placeholder="Email" required class="redText"></input></div><br>
+            <div><input type="password" placeholder="Password" required class="redText"></input></div><br>
             <button id="buttonLogin" style="background-color:white;">Sign In</button>
             <button id="buttonRegister" style="background-color:white;">Register</button>
         </div>
